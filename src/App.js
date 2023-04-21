@@ -1,23 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Banner from './components/Banner';
+import Form from './components/Form';
+import Position from './components/Position';
 
 function App() {
+  const dataListPositions = [
+    {
+      name: 'Goleiros',
+      primaryColor: '#D91E2E',
+      secondaryColor: '#e29da3',
+    },
+    {
+      name: 'Zagueiros',
+      primaryColor: '#040D09',
+      secondaryColor: '#6e6e6e',
+    },
+    {
+      name: 'Laterais',
+      primaryColor: '#F2E088',
+      secondaryColor: '#e6e2d2',
+    },
+    {
+      name: 'Volantes',
+      primaryColor: '#8C0303',
+      secondaryColor: '#bd8c8c',
+    },
+    {
+      name: 'Meio Campistas',
+      primaryColor: '#D91818',
+      secondaryColor: '#c28989',
+    },
+    {
+      name: 'Atacantes',
+      primaryColor: '#040D09',
+      secondaryColor: '#6e6e6e',
+    },
+  ];
+
+  const [players, setPlayers] = useState([]);
+  const newPlayer = player => {
+    console.log(player);
+    setPlayers([...players, player]);
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Banner></Banner>
+      <Form
+        namesListPositions={dataListPositions.map(
+          dataListPositions => dataListPositions.name
+        )}
+        registeredPlayer={player => newPlayer(player)}
+      />
+      {dataListPositions.map(position => (
+        <Position
+          key={position.name}
+          namePosition={position.name}
+          pColor={position.primaryColor}
+          sColor={position.secondaryColor}
+          players={players.filter(player => player.position === position.name)}
+        />
+      ))}
     </div>
   );
 }

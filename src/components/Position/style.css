@@ -1,0 +1,11 @@
+.section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  border-bottom: 4px solid;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
