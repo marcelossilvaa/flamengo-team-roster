@@ -27,19 +27,18 @@ function App() {
     },
     {
       name: 'Meio Campistas',
-      primaryColor: '#D91818',
-      secondaryColor: '#c28989',
+      primaryColor: '#040D09',
+      secondaryColor: '#6e6e6e',
     },
     {
       name: 'Atacantes',
-      primaryColor: '#040D09',
-      secondaryColor: '#6e6e6e',
+      primaryColor: '#D91818',
+      secondaryColor: '#c28989',
     },
   ];
 
   const [players, setPlayers] = useState([]);
   const newPlayer = player => {
-    console.log(player);
     setPlayers([...players, player]);
   };
   return (

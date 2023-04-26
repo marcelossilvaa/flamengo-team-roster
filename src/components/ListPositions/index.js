@@ -10,6 +10,9 @@ function ListPositions(props) {
         className="bg-[#FFF] drop-shadow-xl shadow-black w-full text-xl p-3"
         required
       >
+        <option value="" className="text-slate-500">
+          Selecione uma posição
+        </option>
         {props.itens.map(item => {
           return <option key={item}>{item}</option>;
         })}

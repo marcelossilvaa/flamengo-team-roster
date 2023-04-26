@@ -1,12 +1,15 @@
-function CardPlayer({ image, name, age, shirtNumber }) {
+import './style.css';
+
+function CardPlayer({ image, name, age, shirtNumber, bgColor }) {
   return (
     <div className="w-[280px]">
-      <div className="bg-[#f0f0f0] rounded-t-[10px] flex justify-center shadow-lg shadow-slate-600">
-        <img
-          src={image}
-          className="max-w-[100px] h-[100px] rounded-[50%] bottom-[-50px] relative"
-          alt={name}
-        />
+      <div
+        className="rounded-t-[10px] flex justify-center shadow-lg shadow-slate-600"
+        style={{ backgroundColor: bgColor }}
+      >
+        <div id="imageCardPlayer">
+          <img src={image} className="w-full" alt="" />
+        </div>
       </div>
       <div className="bg-[#FFFFFF] shadow-lg shadow-slate-600 pt-[70px] pb-[10px] rounded-b-[10px]">
         <h4 className="text-lg font-bold">{name}</h4>

@@ -19,6 +19,11 @@ function Form(props) {
       position,
       shirtNumber,
     });
+    setName('');
+    setAge('');
+    setImage('');
+    setPosition('');
+    setShirtNumber('');
   };
 
   return (
