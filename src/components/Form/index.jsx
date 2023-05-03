@@ -34,7 +34,7 @@ function Form(props) {
   }
 
   const propsMostrar = {
-    size: 30,
+    size: 28,
     onClick: aoMostrarCadastro,
     color: mostrarCadastro ? '#FFFFFF' : '#888888',
   };
@@ -43,7 +43,7 @@ function Form(props) {
     <div>
       <div className="bg-black flex justify-center" onClick={aoMostrarCadastro}>
         <div className="w-[700px] flex justify-end gap-4 max-w-6xl h-12 items-center">
-          <h1 className="text-xl font-bold text-white ">
+          <h1 className="text-base font-bold text-white sm:text-xl">
             Adicionar novo jogador
           </h1>
           {mostrarCadastro ? (
