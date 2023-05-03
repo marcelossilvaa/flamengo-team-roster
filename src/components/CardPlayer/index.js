@@ -1,8 +1,39 @@
 import './style.css';
+import { MinusCircle, Star } from '@phosphor-icons/react';
 
-function CardPlayer({ image, name, age, shirtNumber, bgColor }) {
+function CardPlayer({
+  player,
+  image,
+  name,
+  age,
+  shirtNumber,
+  bgColor,
+  toDelete,
+  toFavorite,
+}) {
+  function favorite() {
+    toFavorite(player.id);
+  }
   return (
-    <div className="w-[280px]">
+    <div className="w-[280px] relative">
+      <div className="absolute cursor-pointer p-2 ">
+        {player.favorite ? (
+          <Star
+            size={30}
+            className="text-white"
+            onClick={favorite}
+            weight="fill"
+          />
+        ) : (
+          <Star size={30} className="text-white" onClick={favorite} />
+        )}
+      </div>
+      <div
+        className="absolute right-0 cursor-pointer p-2"
+        onClick={() => toDelete(player.id)}
+      >
+        <MinusCircle size={30} className="text-white" />
+      </div>
       <div
         className="rounded-t-[10px] flex justify-center shadow-lg shadow-slate-600"
         style={{ backgroundColor: bgColor }}

@@ -1,5 +1,6 @@
 [
   {
+    "id": "uuidv4()",
     "position": "Goleiros",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/1/1681793652.jpg",
     "name": "Santos",
@@ -7,6 +8,7 @@
     "age": "33"
   },
   {
+    "id": "uuidv4()",
     "position": "Goleiros",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/1/1681794035.jpg",
     "name": "Hugo Souza",
@@ -14,6 +16,7 @@
     "age": "24"
   },
   {
+    "id": "uuidv4()",
     "position": "Goleiros",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/1/1681793679.jpg",
     "name": "Matheus Cunha",
@@ -21,6 +24,7 @@
     "age": "21"
   },
   {
+    "id": "uuidv4()",
     "position": "Zagueiros",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/2/1681793122.jpg",
     "name": "Rodrigo Caio",
@@ -28,6 +32,7 @@
     "age": "29"
   },
   {
+    "id": "uuidv4()",
     "position": "Zagueiros",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/2/1681792369.jpg",
     "name": "Léo Pereira",
@@ -35,6 +40,7 @@
     "age": "27"
   },
   {
+    "id": "uuidv4()",
     "position": "Zagueiros",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/2/1681792790.jpg",
     "name": "David Luiz",
@@ -42,6 +48,7 @@
     "age": "36"
   },
   {
+    "id": "uuidv4()",
     "position": "Zagueiros",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/2/1681793171.jpg",
     "name": "Fabrício Bruno",
@@ -49,6 +56,7 @@
     "age": "27"
   },
   {
+    "id": "uuidv4()",
     "position": "Zagueiros",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/2/1681793342.jpg",
     "name": "Pablo",
@@ -56,6 +64,7 @@
     "age": "31"
   },
   {
+    "id": "uuidv4()",
     "position": "Laterais",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/3/1676389656.png",
     "name": "Matheuzinho",
@@ -63,6 +72,7 @@
     "age": "22"
   },
   {
+    "id": "uuidv4()",
     "position": "Laterais",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/3/1681793440.jpg",
     "name": "Varela",
@@ -70,6 +80,7 @@
     "age": "30"
   },
   {
+    "id": "uuidv4()",
     "position": "Laterais",
     "image": "https://static-img.zz.pt/jogadores/71/742671_20210825233253_wesley.jpg",
     "name": "Wesley",
@@ -77,6 +88,7 @@
     "age": "19"
   },
   {
+    "id": "uuidv4()",
     "position": "Laterais",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/4/1681792841.jpg",
     "name": "Filipe Luís",
@@ -84,6 +96,7 @@
     "age": "37"
   },
   {
+    "id": "uuidv4()",
     "position": "Laterais",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/4/1681792936.jpg",
     "name": "Ayrton Lucas",
@@ -91,13 +104,15 @@
     "age": "25"
   },
   {
+    "id": "uuidv4()",
     "position": "Volantes",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/5/1681794051.jpg",
-    "name": "Artuo Vidal",
+    "name": "Arturo Vidal",
     "shirtNumber": "32",
     "age": "35"
   },
   {
+    "id": "uuidv4()",
     "position": "Volantes",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/5/1681793036.jpg",
     "name": "Thiago Maia",
@@ -105,6 +120,7 @@
     "age": "26"
   },
   {
+    "id": "uuidv4()",
     "position": "Volantes",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/5/1681793372.jpg",
     "name": "Erick Pulgar",
@@ -112,6 +128,7 @@
     "age": "29"
   },
   {
+    "id": "uuidv4()",
     "position": "Volantes",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/5/1681792999.jpg",
     "name": "Gerson",
@@ -119,6 +136,7 @@
     "age": "25"
   },
   {
+    "id": "uuidv4()",
     "position": "Meio Campistas",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/6/1681792746.jpg",
     "name": "Everton Ribeiro",
@@ -126,6 +144,7 @@
     "age": "34"
   },
   {
+    "id": "uuidv4()",
     "position": "Meio Campistas",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/6/1681793931.jpg",
     "name": "Arrascaeta",
@@ -133,6 +152,7 @@
     "age": "28"
   },
   {
+    "id": "uuidv4()",
     "position": "Meio Campistas",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/6/1681793516.jpg",
     "name": "Victor Hugo",
@@ -140,6 +160,7 @@
     "age": "18"
   },
   {
+    "id": "uuidv4()",
     "position": "Meio Campistas",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/6/1681793484.jpg",
     "name": "Matheus França",
@@ -147,6 +168,7 @@
     "age": "19"
   },
   {
+    "id": "uuidv4()",
     "position": "Atacantes",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/7/1681792471.jpg",
     "name": "Gabigol",
@@ -154,6 +176,7 @@
     "age": "26"
   },
   {
+    "id": "uuidv4()",
     "position": "Atacantes",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/7/1681793086.jpg",
     "name": "Bruno Henrique",
@@ -161,6 +184,7 @@
     "age": "32"
   },
   {
+    "id": "uuidv4()",
     "position": "Atacantes",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/7/1681792684.jpg",
     "name": "Pedro",
@@ -168,6 +192,7 @@
     "age": "25"
   },
   {
+    "id": "uuidv4()",
     "position": "Atacantes",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/7/1681793410.jpg",
     "name": "Marinho",
@@ -175,6 +200,7 @@
     "age": "32"
   },
   {
+    "id": "uuidv4()",
     "position": "Atacantes",
     "image": "https://fla-bucket-s3-us.s3.amazonaws.com/public/images/players/7/1681792900.jpg",
     "name": "Everton Cebolinha",
